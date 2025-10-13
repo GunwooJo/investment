@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: investment
+  thymeleaf:
+    cache: false
+  devtools:
+    restart:
+      enabled: true
