@@ -6,16 +6,19 @@
     <link rel="stylesheet" th:href="@{/css/login.css}">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Welcome back</h1>
-        <form>
-            <fieldset class="notched">
-                <legend><span>Email</span></legend>
-                <input type="email" placeholder="email123@test.com" required>
-            </fieldset>
+<div class="login-container">
+    <h1 id="title">Welcome back</h1>
+    <form>
+        <fieldset class="input-container">
+            <legend>Email</legend>
+            <input type="email" placeholder="kristin.watson@example.com" required>
+        </fieldset>
 
+        <fieldset class="input-container">
+            <legend>Password</legend>
             <input type="password" placeholder="Password">
-        </form>
-    </div>
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
