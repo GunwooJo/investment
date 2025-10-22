@@ -52,3 +52,26 @@ body {
     font-size: 16px;
     background: transparent; /* 배경 투명 */
 }
+
+/* Remember me 체크박스 컨테이너 */
+.remember-me-container {
+    display: flex; /* Flexbox 활성화 */
+    align-items: center; /* 자식 요소들을 세로 중앙 정렬 */
+    gap: 8px; /* 체크박스와 레이블 사이 간격 */
+    margin-left: 30px;
+}
+
+/* Remember me 체크박스 스타일 */
+.remember-me-container input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer; /* 마우스 오버 시 포인터 표시 */
+}
+
+/* Remember me 레이블 스타일 */
+.remember-me-container label {
+    height: 18px;
+    color: #6b7280; /* 회색 글씨 */
+    cursor: pointer; /* 마우스 오버 시 포인터 표시 */
+    user-select: none; /* 텍스트 선택 방지 */
+}
