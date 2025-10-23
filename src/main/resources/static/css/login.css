@@ -26,6 +26,27 @@ body {
     align-items: center; /* 가로 중앙 정렬 */
 }
 
+.login-container button[type="submit"] {
+    width: 412px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #416fdf;
+    color: white;
+    margin-top: 35px;
+}
+
+.login-container button[type="submit"]:hover {
+    width: 412px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6eaee7;
+    color: white;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
 /* fieldset 스타일 - 테두리가 있는 박스 */
 .input-container {
     width: 380px;
