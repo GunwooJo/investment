@@ -9,6 +9,10 @@ body {
     background-color: #6eaee7;
 }
 
+#title {
+    color: #416fdf;
+}
+
 .login-container {
     padding: 40px;
     border-radius: 40px;
@@ -57,8 +61,8 @@ body {
 .remember-me-container {
     display: flex; /* Flexbox 활성화 */
     align-items: center; /* 자식 요소들을 세로 중앙 정렬 */
-    gap: 8px; /* 체크박스와 레이블 사이 간격 */
     margin-left: 30px;
+    justify-content: space-between;
 }
 
 /* Remember me 체크박스 스타일 */
@@ -68,10 +72,22 @@ body {
     cursor: pointer; /* 마우스 오버 시 포인터 표시 */
 }
 
+.remember-me-container > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /* Remember me 레이블 스타일 */
 .remember-me-container label {
     height: 18px;
     color: #6b7280; /* 회색 글씨 */
     cursor: pointer; /* 마우스 오버 시 포인터 표시 */
     user-select: none; /* 텍스트 선택 방지 */
+    /*margin-left: 10px;*/
+}
+
+.remember-me-container > span {
+    color: #416fdf;
+    cursor: pointer;
 }
