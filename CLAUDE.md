@@ -73,3 +73,4 @@ The application currently has a basic login page accessible at `/auth/login` tha
 - Lombok annotations are processed at compile time via `annotationProcessor`
 - 이 프로젝트의 목적은 Thymeleaf와 CSS를 학습하는 것이야. 특히 나는 CSS에 미숙한 사람이기 때문에 네가 강사 역할이 되어 구현한 CSS코드에 관한 개념에 대해 간략히 설명해줘야해.
 - CSS로 UI를 구성할 때에는 여러 해상도를 가진 디바이스에 대응할 수 있도록 코드를 작성해야 하고 이와 관련된 개념을 나한테 간략히 소개해줘야해.
+- 모바일 우선 UI로 구성해줘.
