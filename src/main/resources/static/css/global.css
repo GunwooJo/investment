@@ -1,0 +1,19 @@
+/* ===== CSS Reset & Global Styles ===== */
+
+/* 모든 요소에 border-box 적용 (예측 가능한 크기 계산) */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 기본 마진/패딩 제거 (브라우저 기본 스타일 초기화) */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* ===== 반응형 미디어 쿼리 브레이크포인트 ===== */
+/*
+모바일 우선(Mobile-First) 전략:
+- 기본 스타일 = 모바일 (320px~)
+- @media (min-width: 768px) = 태블릿
+- @media (min-width: 1024px) = 데스크톱
+*/
